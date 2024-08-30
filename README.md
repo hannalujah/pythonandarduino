@@ -10,3 +10,7 @@ So the code prints 0 for 3 times and then prints the rest of the numbers.
 I think the issue has to do something with the timing but I don't know exactly what I should change. I've tried my best. 
 
 I'll appreciate it if you could help me with this step of the project.
+
+
+P.S. Problem SOLVED! added a time.sleep for 2 seconds so the 'handshake could be complete.'
+Special thanks to the Sharuzzaman from the telegram python group
