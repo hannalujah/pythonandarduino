@@ -3,7 +3,7 @@ random.seed(time.time())
 disturbance = [1,1,1,2,2,2,3,3,3,4,4,4]
 random.shuffle(disturbance)
 
-arduino = serial.Serial(port='COM5', baudrate=115200, timeout=0.001)
+arduino = serial.Serial(port='COM5', baudrate=115200, timeout=0.1)
 
 for i in range(len(disturbance)):
     dist_type = str(disturbance[i])
